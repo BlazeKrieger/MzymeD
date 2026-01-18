@@ -1,0 +1,49 @@
+{
+  "analysis_type": "Laminarinase Affinity Comparison",
+  "ranking": [
+    {
+      "rank": 1,
+      "pdb_id": "2W52",
+      "name": "BxLam16A",
+      "organism": "Phanerochaete chrysosporium",
+      "affinity_score": 62.59166666666667,
+      "catalytic_residue_score": 7,
+      "substrate_contacts": 26,
+      "binding_site_volume": 27435.62165239711,
+      "protein_length": 298
+    },
+    {
+      "rank": 2,
+      "pdb_id": "2W39",
+      "name": "BxLam16A",
+      "organism": "Phanerochaete chrysosporium",
+      "affinity_score": 55.00833333333334,
+      "catalytic_residue_score": 7,
+      "substrate_contacts": 13,
+      "binding_site_volume": 27375.239465342962,
+      "protein_length": 298
+    },
+    {
+      "rank": 3,
+      "pdb_id": "4BPZ",
+      "name": "CaLam",
+      "organism": "Chrysosporium ascoides",
+      "affinity_score": 43.57916666666667,
+      "catalytic_residue_score": 1,
+      "substrate_contacts": 35,
+      "binding_site_volume": 27139.47113533444,
+      "protein_length": 251
+    },
+    {
+      "rank": 4,
+      "pdb_id": "4BOW",
+      "name": "NtLam16",
+      "organism": "Nectria haematococca",
+      "affinity_score": 40.3,
+      "catalytic_residue_score": 0,
+      "substrate_contacts": 36,
+      "binding_site_volume": 27167.54056276178,
+      "protein_length": 248
+    }
+  ]
+}
