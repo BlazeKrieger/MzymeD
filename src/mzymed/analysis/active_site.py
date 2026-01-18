@@ -19,8 +19,14 @@ class ActiveSiteAnalyzer:
             contacts = structure_data.get("contacts", None)
             if contacts is None:
                 return []
-            
-            contact_scores = np.sum(contacts > contact_threshold, axis=1)
+
+            # Accept either ndarray (preferred) or list of triplets
+            if isinstance(contacts, list):
+                contact_matrix = self._list_to_matrix(contacts)
+            else:
+                contact_matrix = np.asarray(contacts)
+
+            contact_scores = np.sum(contact_matrix > contact_threshold, axis=1)
             active_site_indices = np.where(contact_scores > np.percentile(contact_scores, 75))[0]
             
             self.active_site_residues = active_site_indices.tolist()
@@ -28,6 +34,17 @@ class ActiveSiteAnalyzer:
         except Exception as e:
             print(f"Error identifying active site: {e}")
             return []
+
+    def _list_to_matrix(self, contacts):
+        """Convert list of (i, j, conf) into symmetric matrix."""
+        if not contacts:
+            return np.zeros((0, 0))
+        max_idx = int(max(max(i, j) for i, j, _ in contacts)) + 1
+        mat = np.zeros((max_idx, max_idx))
+        for i, j, conf in contacts:
+            mat[i, j] = conf
+            mat[j, i] = conf
+        return mat
     
     def analyze_interactions(self, enzyme_structure: Dict[str, Any],
                            substrate_structure: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:

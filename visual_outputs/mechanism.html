@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Laminarinase Catalytic Mechanism</title>
+    <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        h1 { color: #333; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #viewer {
+            width: 100%;
+            height: 600px;
+            position: relative;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+        .controls {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #0052a3;
+        }
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+        }
+        .info h3 { margin-top: 0; }
+        .residue-list {
+            list-style: none;
+            padding: 0;
+        }
+        .residue-list li {
+            padding: 8px;
+            margin: 5px 0;
+            background: white;
+            border-radius: 4px;
+            border-left: 4px solid #0066cc;
+        }
+        #frameInfo {
+            font-weight: bold;
+            color: #0066cc;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧬 Laminarinase Catalytic Mechanism Animation</h1>
+        
+        <div id="viewer"></div>
+        
+        <div class="controls">
+            <h3>Animation Controls</h3>
+            <button onclick="playAnimation()">▶ Play</button>
+            <button onclick="pauseAnimation()">⏸ Pause</button>
+            <button onclick="resetAnimation()">⏮ Reset</button>
+            <button onclick="nextFrame()">⏭ Next Frame</button>
+            <button onclick="prevFrame()">⏪ Previous Frame</button>
+            
+            <div>
+                <label for="frameSlider">Frame: </label>
+                <input type="range" id="frameSlider" min="1" max="50" value="1" 
+                       style="width: 300px; vertical-align: middle;"
+                       oninput="gotoFrame(this.value)">
+                <span id="frameInfo">Frame 1/50</span>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h3>📋 Catalytic Mechanism Explanation</h3>
+            <p><strong>Enzyme:</strong> Laminarinase (β-1,3-glucanase) from real crystal structure (PDB: 2W52)</p>
+            <p><strong>Substrate:</strong> β-1,3-glucan (laminarin)</p>
+            <p><strong>Mechanism:</strong> Double-displacement (retaining) glycosidase</p>
+            
+            <h4>Frame Breakdown:</h4>
+            <ul class="residue-list">
+                <li><strong>Frames 1-9:</strong> Substrate approaching the enzyme active site (CYAN spheres move in)</li>
+                <li><strong>Frames 10-19:</strong> Substrate entering active site (enzyme opens conformationally)</li>
+                <li><strong>Frames 20-29:</strong> Michaelis complex formation (substrate bound, enzyme breathing)</li>
+                <li><strong>Frames 30-36:</strong> Nucleophilic attack by GLU107 (RED) - C-N bond formation</li>
+                <li><strong>Frames 37-43:</strong> ⚡ <strong>GLYCOSIDIC BOND CLEAVAGE</strong> - C-O bond breaks, covalent intermediate</li>
+                <li><strong>Frames 44-50:</strong> Product release and enzyme regeneration</li>
+            </ul>
+            
+            <h4>Key Catalytic Residues:</h4>
+            <ul class="residue-list">
+                <li>🔴 <strong>GLU107 (Red)</strong> - Nucleophile; directly attacks C1 carbon of substrate</li>
+                <li>🟠 <strong>ASP256 (Orange)</strong> - General acid; protonates the leaving group</li>
+                <li>🟡 <strong>TRP257 (Yellow)</strong> - Substrate binding and stabilization</li>
+                <li>🟣 <strong>GLY49 (Purple)</strong> - Active site loop forming binding pocket</li>
+            </ul>
+            
+            <h4>References:</h4>
+            <ul>
+                <li>GH16 family: CAZy (Carbohydrate-Active enZYmes) database classification</li>
+                <li>Mechanism: Double displacement with covalent intermediate</li>
+                <li>Crystal structures: 2W52, 2W39, 4BPZ, 4BOW (RCSB PDB)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        let viewer;
+        let currentFrame = 1;
+        let isPlaying = false;
+        let animationTimer = null;
+        let pdbData = null;
+
+        // Initialize 3Dmol viewer
+        function initViewer() {
+            let config = { backgroundColor: 'white' };
+            let element = document.getElementById('viewer');
+            viewer = $3Dmol.createViewer(element, config);
+            
+            // Load the PDB file
+            fetch('catalysis_dynamics.pdb')
+                .then(response => response.text())
+                .then(data => {
+                    pdbData = data;
+                    viewer.addModel(data, "pdb");
+                    setupVisualization();
+                    viewer.render();
+                })
+                .catch(err => {
+                    console.error('Could not load PDB file:', err);
+                    element.innerHTML = '<p style="padding: 20px; color: red;"><strong>Error:</strong> Could not load PDB file. Make sure catalysis_dynamics.pdb is in the same directory.</p>';
+                });
+        }
+
+        // Setup initial visualization
+        function setupVisualization() {
+            let model = viewer.getModel();
+            
+            // Hide all by default
+            viewer.setStyle({}, {cartoon: false, stick: false, sphere: false});
+            
+            // Show enzyme as cartoon
+            viewer.setStyle({chain: 'A'}, {cartoon: {color: 'spectrum'}});
+            
+            // Show catalytic residues as large colored spheres
+            viewer.setStyle({chain: 'A', resi: 107}, {sphere: {scale: 0.5, colorscheme: 'redCarbon'}});
+            viewer.setStyle({chain: 'A', resi: 256}, {sphere: {scale: 0.5, colorscheme: 'orangeCarbon'}});
+            viewer.setStyle({chain: 'A', resi: 257}, {sphere: {scale: 0.5, colorscheme: 'yellowCarbon'}});
+            viewer.setStyle({chain: 'A', resi: 49}, {sphere: {scale: 0.5, colorscheme: 'purpleCarbon'}});
+            
+            // Show substrate (chain B) as prominent cyan spheres
+            viewer.setStyle({chain: 'B'}, {sphere: {scale: 1.5, color: 'cyan'}});
+            
+            // Zoom to center on catalytic site
+            viewer.zoomTo({chain: 'A', resi: [49, 107, 256, 257]});
+        }
+
+        // Animation functions
+        function playAnimation() {
+            isPlaying = true;
+            animationTimer = setInterval(() => {
+                currentFrame++;
+                if (currentFrame > 50) currentFrame = 1;
+                updateFrame();
+            }, 400); // 400ms per frame
+        }
+
+        function pauseAnimation() {
+            isPlaying = false;
+            if (animationTimer) clearInterval(animationTimer);
+        }
+
+        function nextFrame() {
+            pauseAnimation();
+            currentFrame++;
+            if (currentFrame > 30) currentFrame = 30;
+            updateFrame();
+        }
+
+        function prevFrame() {
+            pauseAnimation();
+            currentFrame--;
+            if (currentFrame < 1) currentFrame = 1;
+            updateFrame();
+        }
+
+        function resetAnimation() {
+            pauseAnimation();
+            currentFrame = 1;
+            updateFrame();
+        }
+
+        function gotoFrame(frameNum) {
+            pauseAnimation();
+            currentFrame = parseInt(frameNum);
+            updateFrame();
+        }
+
+        function updateFrame() {
+            document.getElementById('frameSlider').value = currentFrame;
+            document.getElementById('frameInfo').textContent = `Frame ${currentFrame}/50`;
+            
+            // Describe what happens in this frame
+            let description = getFrameDescription(currentFrame);
+            console.log(`Frame ${currentFrame}: ${description}`);
+        }
+
+        function getFrameDescription(frame) {
+            if (frame <= 9) return "Substrate approaching enzyme (CYAN spheres moving) - enzyme breathing";
+            if (frame <= 19) return "Substrate binding in active site (enzyme conformational change)";
+            if (frame <= 29) return "Michaelis complex formed (substrate bound, enzyme dynamics)";
+            if (frame <= 36) return "Nucleophilic attack by GLU107 (RED sphere)";
+            if (frame <= 43) return "⚡ GLYCOSIDIC BOND CLEAVAGE - Breaking C-O bond, forming intermediate";
+            return "Product release and enzyme regeneration";
+        }
+
+        // Initialize on page load
+        window.addEventListener('load', initViewer);
+    </script>
+</body>
+</html>
