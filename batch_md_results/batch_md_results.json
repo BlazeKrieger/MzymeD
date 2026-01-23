@@ -1,0 +1,1070 @@
+{
+  "metadata": {
+    "start_time": "2026-01-19T11:51:08.713932",
+    "total_structures": 165,
+    "known_structures": 4,
+    "predicted_structures": 161,
+    "end_time": "2026-01-19T12:05:48.102058",
+    "total_elapsed_seconds": 879.2553443908691,
+    "successful_simulations": 165,
+    "failed_simulations": 0,
+    "success_rate": "100.0%"
+  },
+  "structures": {
+    "2W39": {
+      "type": "known",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 34.053674936294556,
+        "returncode": 0,
+        "stdout": "ax: 1.78 \u00c5\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_2W39.pdb\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_2W39.log\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\analysis_results\\glucan_complex_2W39_rmsd.json\n",
+        "stderr": ""
+      },
+      "rmsd_data": {
+        "pdb_id": "2W39",
+        "frames": 50,
+        "atoms": 4292,
+        "mean_rmsd_nm": 0.14945165812969208,
+        "max_rmsd_nm": 0.1784420907497406,
+        "min_rmsd_nm": 0.0
+      },
+      "index": 1
+    },
+    "2W52": {
+      "type": "known",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 35.0579309463501,
+        "returncode": 0,
+        "stdout": "ax: 1.66 \u00c5\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_2W52.pdb\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_2W52.log\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\analysis_results\\glucan_complex_2W52_rmsd.json\n",
+        "stderr": ""
+      },
+      "rmsd_data": {
+        "pdb_id": "2W52",
+        "frames": 50,
+        "atoms": 4292,
+        "mean_rmsd_nm": 0.13945592939853668,
+        "max_rmsd_nm": 0.16569897532463074,
+        "min_rmsd_nm": 0.0
+      },
+      "index": 2
+    },
+    "4BOW": {
+      "type": "known",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 63.96360778808594,
+        "returncode": 0,
+        "stdout": "ax: 2.65 \u00c5\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_4BOW.pdb\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_4BOW.log\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\analysis_results\\glucan_complex_4BOW_rmsd.json\n",
+        "stderr": ""
+      },
+      "rmsd_data": {
+        "pdb_id": "4BOW",
+        "frames": 50,
+        "atoms": 7948,
+        "mean_rmsd_nm": 0.20379196107387543,
+        "max_rmsd_nm": 0.26524287462234497,
+        "min_rmsd_nm": 0.0
+      },
+      "index": 3
+    },
+    "4BPZ": {
+      "type": "known",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 59.693570613861084,
+        "returncode": 0,
+        "stdout": "ax: 2.87 \u00c5\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_4BPZ.pdb\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_4BPZ.log\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\analysis_results\\glucan_complex_4BPZ_rmsd.json\n",
+        "stderr": ""
+      },
+      "rmsd_data": {
+        "pdb_id": "4BPZ",
+        "frames": 50,
+        "atoms": 7948,
+        "mean_rmsd_nm": 0.21667493879795074,
+        "max_rmsd_nm": 0.28677281737327576,
+        "min_rmsd_nm": 0.0
+      },
+      "index": 4
+    },
+    "2VY0_1_Chains": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 0.9358429908752441,
+        "returncode": 0,
+        "stdout": "Drive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading 2VY0_1_Chains_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 6
+    },
+    "3AZY_1_Chains": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 0.9565703868865967,
+        "returncode": 0,
+        "stdout": "Drive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading 3AZY_1_Chains_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 8
+    },
+    "3GD0_1_Chain": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 0.9916877746582031,
+        "returncode": 0,
+        "stdout": "eDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading 3GD0_1_Chain_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 10
+    },
+    "6JH5_1_Chain": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4840917587280273,
+        "returncode": 0,
+        "stdout": "eDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading 6JH5_1_Chain_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 12
+    },
+    "AAA25520.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4690961837768555,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAA25520.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 14
+    },
+    "AAC25554.2": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4407718181610107,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAC25554.2_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 16
+    },
+    "AAC69707.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5568032264709473,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAC69707.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 18
+    },
+    "AAD35118.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4172708988189697,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAD35118.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 20
+    },
+    "AAV00003.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.497084379196167,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAV00003.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 22
+    },
+    "AAW34372.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5319676399230957,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AAW34372.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 24
+    },
+    "ABJ15796.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5393881797790527,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ABJ15796.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 26
+    },
+    "ABQ46917.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4034514427185059,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ABQ46917.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 28
+    },
+    "ABR28478.2": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5021202564239502,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ABR28478.2_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 30
+    },
+    "ABX04162.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5005030632019043,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ABX04162.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 32
+    },
+    "ACD93221.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4677324295043945,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACD93221.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 34
+    },
+    "ACM68926.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3333532810211182,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACM68926.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 36
+    },
+    "ACN22491.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.229335069656372,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACN22491.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 38
+    },
+    "ACS66685.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2852625846862793,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACS66685.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 40
+    },
+    "ACU35625.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2323200702667236,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACU35625.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 42
+    },
+    "ACU61000.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2597646713256836,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACU61000.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 44
+    },
+    "ACY14033.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2975335121154785,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACY14033.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 46
+    },
+    "ACZ84991.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3305845260620117,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ACZ84991.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 48
+    },
+    "ADI12502.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3049488067626953,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADI12502.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 50
+    },
+    "ADL33332.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3183531761169434,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADL33332.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 52
+    },
+    "ADO70569.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3863813877105713,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADO70569.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 54
+    },
+    "ADQ44988.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.5667970180511475,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADQ44988.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 56
+    },
+    "ADQ45027.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3239574432373047,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADQ45027.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 58
+    },
+    "ADU06434.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3369381427764893,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADU06434.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 60
+    },
+    "ADX71276.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3365464210510254,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ADX71276.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 62
+    },
+    "AEA62613.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4122116565704346,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEA62613.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 64
+    },
+    "AEK43828.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3024532794952393,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEK43828.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 66
+    },
+    "AEM85591.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3522348403930664,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEM85591.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 68
+    },
+    "AEN12197.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2587921619415283,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEN12197.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 70
+    },
+    "AEY93037.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2506582736968994,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEY93037.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 72
+    },
+    "AEY93509.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2334880828857422,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AEY93509.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 74
+    },
+    "AFE08907.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.248124361038208,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AFE08907.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 76
+    },
+    "AFZ68118.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3005661964416504,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AFZ68118.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 78
+    },
+    "AGJ57089.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3551790714263916,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AGJ57089.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 80
+    },
+    "AGK75398.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2465581893920898,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AGK75398.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 82
+    },
+    "AGK79825.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.246180772781372,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AGK79825.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 84
+    },
+    "AGK81135.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2207274436950684,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AGK81135.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 86
+    },
+    "AGL15927.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.281097412109375,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AGL15927.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 88
+    },
+    "ALP73406.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2386753559112549,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading ALP73406.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 90
+    },
+    "AOR29489.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4034209251403809,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AOR29489.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 92
+    },
+    "AOR29491.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2384543418884277,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading AOR29491.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 94
+    },
+    "BAA04892.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2804079055786133,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAA04892.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 96
+    },
+    "BAC67687.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2493133544921875,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAC67687.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 98
+    },
+    "BAD67019.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.267016887664795,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAD67019.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 100
+    },
+    "BAE02683.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.339716911315918,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAE02683.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 102
+    },
+    "BAE48426.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.40496826171875,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAE48426.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 104
+    },
+    "BAF52916.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3567001819610596,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAF52916.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 106
+    },
+    "BAG19231.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2150733470916748,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAG19231.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 108
+    },
+    "BAG23551.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 0.9112467765808105,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAG23551.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 110
+    },
+    "BAH84971.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 0.9215731620788574,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAH84971.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 112
+    },
+    "BAL87999.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.1589739322662354,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAL87999.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 114
+    },
+    "BAL88862.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 433.84967017173767,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAL88862.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 116
+    },
+    "BAM29293.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.9588816165924072,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAM29293.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 118
+    },
+    "BAR72490.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.284505844116211,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAR72490.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 120
+    },
+    "BAX84062.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.512657642364502,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BAX84062.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 122
+    },
+    "BEK81619.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4850571155548096,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading BEK81619.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 124
+    },
+    "CAA61884.2": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4801208972930908,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAA61884.2_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 126
+    },
+    "CAA88008.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2191722393035889,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAA88008.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 128
+    },
+    "CAB01407.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.362924337387085,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAB01407.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 130
+    },
+    "CAL68405.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2807724475860596,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAL68405.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 132
+    },
+    "CAL68407.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2842371463775635,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAL68407.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 134
+    },
+    "CAZ95067.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2764561176300049,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAZ95067.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 136
+    },
+    "CAZ96583.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2192292213439941,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CAZ96583.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 138
+    },
+    "CCA53860.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.301159381866455,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CCA53860.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 140
+    },
+    "CCA53917.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.1467084884643555,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CCA53917.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 142
+    },
+    "CCK25894.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.3189210891723633,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CCK25894.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 144
+    },
+    "CCK26176.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.2719461917877197,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CCK26176.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 146
+    },
+    "CDF79584.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.252091646194458,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CDF79584.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 148
+    },
+    "CDF79586.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.257622480392456,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading CDF79586.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 150
+    },
+    "OEF87989.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.205873727798462,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading OEF87989.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 152
+    },
+    "OEF87990.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4090943336486816,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading OEF87990.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 154
+    },
+    "OEF87991.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 2.0705480575561523,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading OEF87991.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 156
+    },
+    "SMY18565.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 2.639481782913208,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading SMY18565.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 158
+    },
+    "TEST_001": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 33.687541246414185,
+        "returncode": 0,
+        "stdout": " Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_TEST_001.pdb\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\md_simulation\\glucan_complex_TEST_001.log\n  Saved: C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\analysis_results\\glucan_complex_TEST_001_rmsd.json\n",
+        "stderr": ""
+      },
+      "rmsd_data": {
+        "pdb_id": "TEST_001",
+        "frames": 50,
+        "atoms": 3733,
+        "mean_rmsd_nm": 1.988020420074463,
+        "max_rmsd_nm": 2.8185956478118896,
+        "min_rmsd_nm": 0.0
+      },
+      "index": 159
+    },
+    "UYI35443.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.386519432067871,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading UYI35443.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 161
+    },
+    "WIW39500.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4648122787475586,
+        "returncode": 0,
+        "stdout": "OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading WIW39500.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 163
+    },
+    "WP_011994743.1": {
+      "type": "predicted",
+      "md_result": {
+        "success": true,
+        "elapsed_seconds": 1.4781057834625244,
+        "returncode": 0,
+        "stdout": "rive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD\\forcefields\\glycam_06j-1.xml\n\nLoading WP_011994743.1_predicted.pdb ...\n\n[ERROR] Simulation failed: Misaligned residue name: ATOM      1 CA  ALA A   1       0.000   2.000   0.000  1.00 50.00           C\n\nCommon fixes:\n  - Ensure openmmforcefields installed: pip install openmmforcefields pdbfixer\n  - Unsupported ligand residue name? Check ligand codes in the PDB\n  - Try shorter steps or CPU if CUDA fails\n",
+        "stderr": ""
+      },
+      "rmsd_data": null,
+      "index": 165
+    }
+  }
+}

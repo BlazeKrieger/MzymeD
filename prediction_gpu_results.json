@@ -1,0 +1,16 @@
+{
+  "start_time": "2026-01-19T11:42:49.923768",
+  "total": 1,
+  "completed": 1,
+  "failed": 0,
+  "predictions": {
+    "TEST_001": {
+      "status": "success",
+      "message": "Generated extended conformation (220 residues)",
+      "length": 220,
+      "pdb_file": "TEST_001_predicted.pdb"
+    }
+  },
+  "end_time": "2026-01-19T11:42:49.954286",
+  "elapsed_seconds": 0.0305178165435791
+}

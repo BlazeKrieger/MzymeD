@@ -1,0 +1,50 @@
+{
+  "timestamp": "1768751867.7447348",
+  "total_structures": 4,
+  "structures": [
+    {
+      "rank": 1,
+      "id": "2W52",
+      "type": "known",
+      "mean_rmsd_nm": 0.13925671577453613,
+      "max_rmsd_nm": 0.16246241331100464,
+      "frames": 50,
+      "stability_score": 8.607432842254639,
+      "activity_score": null,
+      "binding_score": null
+    },
+    {
+      "rank": 2,
+      "id": "2W39",
+      "type": "known",
+      "mean_rmsd_nm": 0.13975197076797485,
+      "max_rmsd_nm": 0.16769452393054962,
+      "frames": 50,
+      "stability_score": 8.602480292320251,
+      "activity_score": null,
+      "binding_score": null
+    },
+    {
+      "rank": 3,
+      "id": "4BOW",
+      "type": "known",
+      "mean_rmsd_nm": 0.20696769654750824,
+      "max_rmsd_nm": 0.2661769688129425,
+      "frames": 50,
+      "stability_score": 7.930323034524918,
+      "activity_score": null,
+      "binding_score": null
+    },
+    {
+      "rank": 4,
+      "id": "4BPZ",
+      "type": "known",
+      "mean_rmsd_nm": 0.20984765887260437,
+      "max_rmsd_nm": 0.2780788242816925,
+      "frames": 50,
+      "stability_score": 7.901523411273956,
+      "activity_score": null,
+      "binding_score": null
+    }
+  ]
+}

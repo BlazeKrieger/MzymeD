@@ -1,0 +1,185 @@
+{
+  "total_analyzed": 20,
+  "ranking": [
+    {
+      "rank": 1,
+      "pdb_id": "2W52",
+      "affinity_score": 62.59166666666667,
+      "catalytic_residues": 7,
+      "substrate_contacts": 26,
+      "binding_site_volume": 27494.889149711325,
+      "protein_length": 298
+    },
+    {
+      "rank": 2,
+      "pdb_id": "2WNE",
+      "affinity_score": 60.59166666666667,
+      "catalytic_residues": 6,
+      "substrate_contacts": 29,
+      "binding_site_volume": 27621.52709019595,
+      "protein_length": 298
+    },
+    {
+      "rank": 3,
+      "pdb_id": "2WLQ",
+      "affinity_score": 60.008333333333326,
+      "catalytic_residues": 6,
+      "substrate_contacts": 28,
+      "binding_site_volume": 27491.81161998327,
+      "protein_length": 298
+    },
+    {
+      "rank": 4,
+      "pdb_id": "2W39",
+      "affinity_score": 55.00833333333334,
+      "catalytic_residues": 7,
+      "substrate_contacts": 13,
+      "binding_site_volume": 27473.918613375132,
+      "protein_length": 298
+    },
+    {
+      "rank": 5,
+      "pdb_id": "2CL2",
+      "affinity_score": 51.508333333333326,
+      "catalytic_residues": 7,
+      "substrate_contacts": 7,
+      "binding_site_volume": 27495.431979842273,
+      "protein_length": 298
+    },
+    {
+      "rank": 6,
+      "pdb_id": "3B00",
+      "affinity_score": 47.07916666666667,
+      "catalytic_residues": 1,
+      "substrate_contacts": 41,
+      "binding_site_volume": 26291.080628144387,
+      "protein_length": 251
+    },
+    {
+      "rank": 7,
+      "pdb_id": "3AZY",
+      "affinity_score": 46.49583333333333,
+      "catalytic_residues": 1,
+      "substrate_contacts": 40,
+      "binding_site_volume": 26319.50185556581,
+      "protein_length": 251
+    },
+    {
+      "rank": 8,
+      "pdb_id": "3AZZ",
+      "affinity_score": 46.45833333333333,
+      "catalytic_residues": 1,
+      "substrate_contacts": 40,
+      "binding_site_volume": 26291.19553803233,
+      "protein_length": 250
+    },
+    {
+      "rank": 9,
+      "pdb_id": "3B01",
+      "affinity_score": 44.74583333333334,
+      "catalytic_residues": 1,
+      "substrate_contacts": 37,
+      "binding_site_volume": 26356.806712495287,
+      "protein_length": 251
+    },
+    {
+      "rank": 10,
+      "pdb_id": "8XPH",
+      "affinity_score": 40.775,
+      "catalytic_residues": 1,
+      "substrate_contacts": 30,
+      "binding_site_volume": 27343.358580996024,
+      "protein_length": 254
+    },
+    {
+      "rank": 11,
+      "pdb_id": "8XPK",
+      "affinity_score": 38.19166666666667,
+      "catalytic_residues": 0,
+      "substrate_contacts": 32,
+      "binding_site_volume": 27277.402327888656,
+      "protein_length": 254
+    },
+    {
+      "rank": 12,
+      "pdb_id": "3AZX",
+      "affinity_score": 37.2,
+      "catalytic_residues": 1,
+      "substrate_contacts": 24,
+      "binding_site_volume": 26493.68606323859,
+      "protein_length": 252
+    },
+    {
+      "rank": 13,
+      "pdb_id": "3ILN",
+      "affinity_score": 36.329166666666666,
+      "catalytic_residues": 0,
+      "substrate_contacts": 29,
+      "binding_site_volume": 26289.69399414639,
+      "protein_length": 251
+    },
+    {
+      "rank": 14,
+      "pdb_id": "8XPW",
+      "affinity_score": 35.525,
+      "catalytic_residues": 1,
+      "substrate_contacts": 21,
+      "binding_site_volume": 27397.62111710168,
+      "protein_length": 254
+    },
+    {
+      "rank": 15,
+      "pdb_id": "6JIA",
+      "affinity_score": 27.4125,
+      "catalytic_residues": 0,
+      "substrate_contacts": 15,
+      "binding_site_volume": 26061.228789960885,
+      "protein_length": 231
+    },
+    {
+      "rank": 16,
+      "pdb_id": "6M6P",
+      "affinity_score": 26.829166666666666,
+      "catalytic_residues": 0,
+      "substrate_contacts": 14,
+      "binding_site_volume": 26051.787243338633,
+      "protein_length": 231
+    },
+    {
+      "rank": 17,
+      "pdb_id": "5WUT",
+      "affinity_score": 26.208333333333336,
+      "catalytic_residues": 0,
+      "substrate_contacts": 13,
+      "binding_site_volume": 26790.441130454332,
+      "protein_length": 230
+    },
+    {
+      "rank": 18,
+      "pdb_id": "1GUI",
+      "affinity_score": 23.979166666666664,
+      "catalytic_residues": 0,
+      "substrate_contacts": 14,
+      "binding_site_volume": 21178.638450918716,
+      "protein_length": 155
+    },
+    {
+      "rank": 19,
+      "pdb_id": "6JH5",
+      "affinity_score": 22.45,
+      "catalytic_residues": 1,
+      "substrate_contacts": 0,
+      "binding_site_volume": 26065.521772166703,
+      "protein_length": 232
+    },
+    {
+      "rank": 20,
+      "pdb_id": "6JHJ",
+      "affinity_score": 18.6625,
+      "catalytic_residues": 0,
+      "substrate_contacts": 0,
+      "binding_site_volume": 26140.55698300864,
+      "protein_length": 231
+    }
+  ]
+}

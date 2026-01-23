@@ -1,0 +1,28 @@
+{
+  "total_found_in_pdb": 544,
+  "analyzed_in_this_run": 20,
+  "downloaded": [
+    "8XPH",
+    "8XPK",
+    "8XPW",
+    "6JIA",
+    "6M6P",
+    "2W39",
+    "2W52",
+    "2WNE",
+    "3AZX",
+    "3AZY",
+    "3AZZ",
+    "3B00",
+    "3B01",
+    "2CL2",
+    "2WLQ",
+    "3ILN",
+    "5WUT",
+    "6JH5",
+    "6JHJ",
+    "1GUI"
+  ],
+  "failed": [],
+  "success_rate": "20/27"
+}

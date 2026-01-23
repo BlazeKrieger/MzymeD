@@ -1,0 +1,67 @@
+{
+  "analysis_type": "Known Laminarinase Structures - MD Stability",
+  "total_structures": 4,
+  "simulation_parameters": {
+    "duration_ps": 100,
+    "steps": 50000,
+    "platform": "OpenCL/CPU",
+    "force_field": "AMBER14 + GLYCAM06j-1",
+    "solvent": "Implicit (GBn2)"
+  },
+  "ranking": [
+    {
+      "structure_id": "2W52",
+      "name": "Laminarinase-substrate complex",
+      "organism": "Thermotoga maritima",
+      "gh_family": "GH16",
+      "resolution": "2.2 \u00c5",
+      "ligand": "\u03b2-1,3-glucan oligosaccharide",
+      "mean_rmsd_nm": 0.13945592939853668,
+      "max_rmsd_nm": 0.16569897532463074,
+      "runtime_sec": 35.0579309463501,
+      "stability_score": 90.7
+    },
+    {
+      "structure_id": "2W39",
+      "name": "Laminarinase from Thermotoga maritima",
+      "organism": "Thermotoga maritima",
+      "gh_family": "GH16",
+      "resolution": "2.0 \u00c5",
+      "ligand": "\u03b2-1,3-glucan (laminarin)",
+      "mean_rmsd_nm": 0.14945165812969208,
+      "max_rmsd_nm": 0.1784420907497406,
+      "runtime_sec": 34.053674936294556,
+      "stability_score": 90.0
+    },
+    {
+      "structure_id": "4BOW",
+      "name": "Endo-\u03b2-1,3-glucanase",
+      "organism": "Streptomyces sioyaensis",
+      "gh_family": "GH16",
+      "resolution": "1.8 \u00c5",
+      "ligand": "Laminarin hexasaccharide",
+      "mean_rmsd_nm": 0.20379196107387543,
+      "max_rmsd_nm": 0.26524287462234497,
+      "runtime_sec": 63.96360778808594,
+      "stability_score": 69.2
+    },
+    {
+      "structure_id": "4BPZ",
+      "name": "Endo-\u03b2-1,3-glucanase complex",
+      "organism": "Streptomyces sioyaensis",
+      "gh_family": "GH16",
+      "resolution": "2.0 \u00c5",
+      "ligand": "Laminarin tetrasaccharide",
+      "mean_rmsd_nm": 0.21667493879795074,
+      "max_rmsd_nm": 0.28677281737327576,
+      "runtime_sec": 59.693570613861084,
+      "stability_score": 66.7
+    }
+  ],
+  "notes": [
+    "Only known PDB structures with ligands successfully ran MD",
+    "Predicted structures failed due to crude extended conformation geometry",
+    "RMSD measured relative to initial minimized structure",
+    "Lower RMSD indicates better structural stability"
+  ]
+}
