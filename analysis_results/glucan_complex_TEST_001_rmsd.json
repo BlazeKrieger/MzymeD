@@ -1,8 +1,0 @@
-{
-  "pdb_id": "TEST_001",
-  "frames": 50,
-  "atoms": 3733,
-  "mean_rmsd_nm": 1.988020420074463,
-  "max_rmsd_nm": 2.8185956478118896,
-  "min_rmsd_nm": 0.0
-}

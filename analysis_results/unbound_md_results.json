@@ -1,7 +1,0 @@
-{
-  "total_atoms": 4292,
-  "trajectory_frames": 40,
-  "simulation_duration_ps": 200,
-  "mean_rmsd_nm": 0.14949214458465576,
-  "max_rmsd_nm": 0.1789069026708603
-}

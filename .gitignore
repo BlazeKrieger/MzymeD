@@ -53,6 +53,9 @@ checkpoints/
 *.log
 logs/
 
+# Large archives
+results-20260123T165138Z-3-001.zip
+
 # OS
 .DS_Store
 Thumbs.db
