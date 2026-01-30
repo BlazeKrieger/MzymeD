@@ -1,38 +1,184 @@
-# MzymeD
+# 🧬 MzymeD
 
-AI-Powered Tool for Enzyme-Substrate Molecular Dynamics Analysis
+**AI-Powered Tool for Enzyme-Substrate Molecular Dynamics Analysis**
 
-## Overview
+> Analyze enzyme-substrate interactions using AI structure prediction, molecular dynamics simulations, and 3D visualization. Perfect for researchers studying enzyme mechanisms, protein engineering, and drug design.
 
-MzymeD is an advanced AI tool that analyzes enzyme-substrate interactions using:
-- **ESM3** (or ESM2) for protein structure prediction from sequences
-- **Molecular Dynamics** simulations for dynamic analysis
-- **Active Site Identification** using contact predictions
-- **3D Visualization** and animation of enzyme-substrate interactions
-- **Optimization Suggestions** for residue mutations
+---
 
-## Features
+## 👋 New to MzymeD?
 
-- 📤 **File Upload**: Support for FASTA, PDB, CIF, and GenBank formats
-- 🧬 **AI Structure Prediction**: Uses ESM models for protein structure from sequence
-- 🔬 **Active Site Analysis**: Identifies key residues involved in catalysis
-- 🎬 **3D Animation**: Creates animated visualizations of molecular dynamics
-- 📊 **Interaction Analysis**: Quantifies enzyme-substrate binding strength
-- 💡 **Optimization**: Suggests residue mutations to improve binding
+**📘 [Complete Beginner's Guide](BEGINNERS_GUIDE.md)** - Start here if you're new!
 
-## Installation
+**Quick Links:**
+- 🎓 **Beginners** → [Beginner's Guide](BEGINNERS_GUIDE.md)
+- 🔬 **Researchers** → See features below
+- 💻 **Developers** → [USAGE.md](USAGE.md)
+- 🚀 **Try it now** → `python demo.py`
+
+---
+
+## 📋 Table of Contents
+
+- [What is MzymeD?](#what-is-mzymed)
+- [Quick Start (3 minutes)](#-quick-start-3-minutes)
+- [Features](#-features)
+- [Installation Guide](#-installation-guide)
+- [Usage Examples](#-usage-examples)
+- [Project Structure](#-project-structure)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+
+---
+
+## What is MzymeD?
+
+MzymeD helps you understand how enzymes interact with their substrates by:
+
+1. **Taking enzyme sequences** (like laminarinase) in FASTA or PDB format
+2. **Predicting 3D structures** using AI (ESM2/ESM3 models)
+3. **Running molecular dynamics** simulations to see real molecular motion
+4. **Identifying active sites** where catalysis happens
+5. **Creating 3D animations** you can view and share
+6. **Suggesting mutations** to optimize enzyme activity
+
+**Perfect for:** Biochemists, protein engineers, computational biologists, and students learning about enzyme mechanisms.
+
+---
+
+## ⚡ Quick Start (3 minutes)
+
+### Option 1: See a Demo (No Installation Required)
 
 ```bash
 # Clone the repository
 git clone https://github.com/BlazeKrieger/MzymeD.git
 cd MzymeD
 
-# Install dependencies
+# View the demo (shows all features)
+python demo.py
+```
+
+### Option 2: Run Real Molecular Dynamics
+
+```bash
+# 1. Set up environment (one-time setup)
+conda create -n mzymed python=3.10 -y
+conda activate mzymed
 pip install -r requirements.txt
 
-# For full ESM functionality
-pip install fair-esm
+# 2. Run a real MD simulation
+python run_cleaned_md.py
+
+# 3. View the animation in PyMOL
+conda install -c conda-forge pymol-open-source -y
+pymol md_simulation/real_md_trajectory.pdb
 ```
+
+**What you'll see:** A 50-frame animation showing real enzyme movement at 300K over 100 picoseconds!
+
+### Option 3: Web Interface
+
+```bash
+# Start the web server
+python app.py
+
+# Open in browser: http://localhost:5000
+# Upload your enzyme FASTA file and analyze!
+```
+
+---
+
+## ✨ Features
+
+| Feature | Description | Use Case |
+|---------|-------------|----------|
+| 📤 **File Upload** | FASTA, PDB, CIF, GenBank formats | Upload any enzyme sequence |
+| 🧬 **AI Prediction** | ESM2/ESM3 structure prediction | Get 3D structure from sequence alone |
+| 🔬 **Active Site ID** | Automatic detection of catalytic residues | Find where chemistry happens |
+| 🎬 **3D Animation** | Interactive molecular dynamics movies | See enzyme motion in real-time |
+| 📊 **Interaction Analysis** | Quantify binding strength | Compare different substrates |
+| 💡 **Optimization** | Suggest beneficial mutations | Engineer better enzymes |
+
+---
+
+---
+
+## 📦 Installation Guide
+
+### Prerequisites
+
+- **Operating System:** Windows 10/11, macOS, or Linux
+- **Python:** 3.8 or higher (3.10 recommended)
+- **Storage:** 5 GB free space
+- **RAM:** 8 GB minimum (16 GB recommended)
+- **GPU (Optional):** NVIDIA GPU with CUDA for faster simulations
+
+### Step-by-Step Installation
+
+#### 1. Install Conda (If You Don't Have It)
+
+**Windows/macOS/Linux:**
+```bash
+# Download Miniconda from: https://docs.conda.io/en/latest/miniconda.html
+# Or use the command line:
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+#### 2. Clone the Repository
+
+```bash
+git clone https://github.com/BlazeKrieger/MzymeD.git
+cd MzymeD
+```
+
+#### 3. Create Environment and Install Dependencies
+
+```bash
+# Create a new conda environment
+conda create -n mzymed python=3.10 -y
+
+# Activate the environment
+conda activate mzymed
+
+# Install required packages
+pip install -r requirements.txt
+
+# Install ESM for AI structure prediction (optional but recommended)
+pip install fair-esm
+
+# Install OpenMM for molecular dynamics
+conda install -c conda-forge openmm=8.2 -y
+
+# Install PyMOL for visualization (optional)
+conda install -c conda-forge pymol-open-source -y
+```
+
+#### 4. Verify Installation
+
+```bash
+# Check if everything is installed correctly
+python -c "import openmm; print('OpenMM:', openmm.__version__)"
+python -c "import Bio; print('BioPython:', Bio.__version__)"
+python -c "import torch; print('PyTorch:', torch.__version__)"
+```
+
+✅ If you see version numbers, you're ready to go!
+
+### GPU Setup (Optional - For Faster Simulations)
+
+If you have an NVIDIA GPU:
+
+```bash
+# Install CUDA-enabled PyTorch
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Verify GPU is detected
+python -c "import torch; print('GPU Available:', torch.cuda.is_available())"
+```
+
+---
 
 ## Quick Start
 
