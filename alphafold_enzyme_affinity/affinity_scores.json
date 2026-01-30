@@ -1,0 +1,182 @@
+{
+  "2VY0": {
+    "pdb": "2VY0_1_Chains___264_aa___Activity__78.1___laminarinases_GH16_Lam16_rcsb_pdb_2VY0.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 264,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9741844534873962,
+    "active_site_flexibility_angstrom": 0.11176776885986328,
+    "flexibility_score": 0.9313980738321941,
+    "affinity_proxy_score": 0.8785349726676941
+  },
+  "AAC25554.2": {
+    "pdb": "AAC25554.2___297_aa___Activity__79.8___laminarinases_GH16_Lam16_AAC25554.2.fasta_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000",
+    "n_residues": 297,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9745409488677979,
+    "active_site_flexibility_angstrom": 0.10319799184799194,
+    "flexibility_score": 0.8599832653999329,
+    "affinity_proxy_score": 0.8643589615821838
+  },
+  "BAC67687.1": {
+    "pdb": "BAC67687.1___318_aa___Activity__69.1___laminarinases_GH16_PcLam16A.fasta_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000",
+    "n_residues": 318,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9791954755783081,
+    "active_site_flexibility_angstrom": 0.1013776883482933,
+    "flexibility_score": 0.8448140695691109,
+    "affinity_proxy_score": 0.8627214431762695
+  },
+  "BAH84971.1": {
+    "pdb": "BAH84971.1___366_aa___Activity__76.1___laminarinases_GH16_HdLam33.fasta_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000",
+    "n_residues": 366,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9745267033576965,
+    "active_site_flexibility_angstrom": 0.09662996977567673,
+    "flexibility_score": 0.8052497481306394,
+    "affinity_proxy_score": 0.8534079790115356
+  },
+  "BAE02683.1": {
+    "pdb": "BAE02683.1___251_aa___Activity__64.2___laminarinases_GH16_BxLam16A.fasta_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000",
+    "n_residues": 251,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9759293794631958,
+    "active_site_flexibility_angstrom": 0.08760688453912735,
+    "flexibility_score": 0.7300573711593946,
+    "affinity_proxy_score": 0.8387902975082397
+  },
+  "3AZY": {
+    "pdb": "3AZY_1_Chains___272_aa___Activity__86.7___laminarinases_GH16_TmLam_rcsb_pdb_3AZY.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 272,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9779873490333557,
+    "active_site_flexibility_angstrom": 0.08275984227657318,
+    "flexibility_score": 0.6896653523047765,
+    "affinity_proxy_score": 0.8313292860984802
+  },
+  "ACD93221.1": {
+    "pdb": "ACD93221.1___270_aa___Activity__76.0___laminarinases_GH16_CaLam.fasta_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000",
+    "n_residues": 270,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9777451157569885,
+    "active_site_flexibility_angstrom": 0.08191867917776108,
+    "flexibility_score": 0.6826556598146757,
+    "affinity_proxy_score": 0.8298546671867371
+  },
+  "CAL68407.1": {
+    "pdb": "CAL68407.1___262_aa___Activity__78.8___laminarinases_GH16_GFO_3468.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 262,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9734076261520386,
+    "active_site_flexibility_angstrom": 0.08264429122209549,
+    "flexibility_score": 0.6887024268507957,
+    "affinity_proxy_score": 0.8297628164291382
+  },
+  "BAX84062.1": {
+    "pdb": "BAX84062.1___251_aa___Activity__69.8___laminarinases_GH16_ULam111_ULam111.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 251,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9730036854743958,
+    "active_site_flexibility_angstrom": 0.08218858391046524,
+    "flexibility_score": 0.6849048659205437,
+    "affinity_proxy_score": 0.828882098197937
+  },
+  "6JH5": {
+    "pdb": "6JH5_1_Chain___243_aa___Activity__68.4___laminarinases_GH16_LamAQ_rcsb_pdb_6JH5.fasta_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000",
+    "n_residues": 243,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9773659706115723,
+    "active_site_flexibility_angstrom": 0.08124221861362457,
+    "flexibility_score": 0.6770184884468715,
+    "affinity_proxy_score": 0.8286134600639343
+  },
+  "WP": {
+    "pdb": "WP_011994743.1___288_aa___Activity__76.0___laminarinases_GH16_FLamA.fasta_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000",
+    "n_residues": 288,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9776459336280823,
+    "active_site_flexibility_angstrom": 0.07838474959135056,
+    "flexibility_score": 0.653206246594588,
+    "affinity_proxy_score": 0.8239350318908691
+  },
+  "AAC69707.1": {
+    "pdb": "AAC69707.1___276_aa___Activity__77.4___laminarinases_GH16_LamR_LamR.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 276,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9771829843521118,
+    "active_site_flexibility_angstrom": 0.07791794836521149,
+    "flexibility_score": 0.6493162363767624,
+    "affinity_proxy_score": 0.8230181932449341
+  },
+  "SMY18565.1": {
+    "pdb": "SMY18565.1___282_aa___Activity__76.3___laminarinases_GH16_FnLamB.fasta_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000",
+    "n_residues": 282,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9786903858184814,
+    "active_site_flexibility_angstrom": 0.07708186656236649,
+    "flexibility_score": 0.6423488880197208,
+    "affinity_proxy_score": 0.8220768570899963
+  },
+  "AAW34372.1": {
+    "pdb": "AAW34372.1___339_aa___Activity__79.2___laminarinases_GH16_MyLam38.fasta_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000",
+    "n_residues": 339,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9803186058998108,
+    "active_site_flexibility_angstrom": 0.07547787576913834,
+    "flexibility_score": 0.6289822980761528,
+    "affinity_proxy_score": 0.8198920488357544
+  },
+  "CAZ96583.1": {
+    "pdb": "CAZ96583.1___383_aa___Activity__87.0___laminarinases_GH16_ZgLamA.fasta_unrelaxed_rank_001_alphafold2_ptm_model_2_seed_000",
+    "n_residues": 383,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9819045662879944,
+    "active_site_flexibility_angstrom": 0.07476832717657089,
+    "flexibility_score": 0.6230693931380908,
+    "affinity_proxy_score": 0.8191852569580078
+  },
+  "ABR28478.2": {
+    "pdb": "ABR28478.2___375_aa___Activity__75.5___laminarinases_GH16_SfLam.fasta_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000",
+    "n_residues": 375,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9804561138153076,
+    "active_site_flexibility_angstrom": 0.07030689716339111,
+    "flexibility_score": 0.585890809694926,
+    "affinity_proxy_score": 0.8113150000572205
+  },
+  "BAM29293.1": {
+    "pdb": "BAM29293.1___390_aa___Activity__70.4___laminarinases_GH16_UeLam16A.fasta_unrelaxed_rank_001_alphafold2_ptm_model_2_seed_000",
+    "n_residues": 390,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9798444509506226,
+    "active_site_flexibility_angstrom": 0.07021833211183548,
+    "flexibility_score": 0.585152767598629,
+    "affinity_proxy_score": 0.8109839558601379
+  },
+  "CDF79584.1": {
+    "pdb": "CDF79584.1___402_aa___Activity__88.7___laminarinases_GH17_FaGH17A.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 402,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9856145977973938,
+    "active_site_flexibility_angstrom": 0.04197493568062782,
+    "flexibility_score": 0.3497911306718985,
+    "affinity_proxy_score": 0.7656426429748535
+  },
+  "3GD0": {
+    "pdb": "3GD0_1_Chain___367_aa___Activity__74.9___laminarinases_GH64_LPHase_LPHase_3GD0.fasta_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000",
+    "n_residues": 367,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9803138971328735,
+    "active_site_flexibility_angstrom": 0.03806261718273163,
+    "flexibility_score": 0.3171884765227636,
+    "affinity_proxy_score": 0.7575318813323975
+  },
+  "WIW39500.1": {
+    "pdb": "WIW39500.1___295_aa___Activity__84.7___laminarinases_GH17_MlGH17B.fasta_unrelaxed_rank_001_alphafold2_ptm_model_2_seed_000",
+    "n_residues": 295,
+    "plddt_confidence": 80.0,
+    "backbone_regularity": 0.9840168952941895,
+    "active_site_flexibility_angstrom": 0.037225544452667236,
+    "flexibility_score": 0.3102128704388937,
+    "affinity_proxy_score": 0.7572476863861084
+  }
+}

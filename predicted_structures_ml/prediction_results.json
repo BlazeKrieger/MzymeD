@@ -1,0 +1,311 @@
+{
+  "successful": 80,
+  "failed": 0,
+  "methods": {
+    "alphafold_db": 0,
+    "esmfold_api": 5,
+    "extended_improved": 45
+  },
+  "structures": [
+    {
+      "accession": "AAC69707.1",
+      "length": 276,
+      "method": "esmfold_api",
+      "status": "success"
+    },
+    {
+      "accession": "CAA61884.2",
+      "length": 1321,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AAD35118.1",
+      "length": 642,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "3AZY_1_Chains",
+      "length": 272,
+      "method": "esmfold_api",
+      "status": "success"
+    },
+    {
+      "accession": "BAX84062.1",
+      "length": 251,
+      "method": "esmfold_api",
+      "status": "success"
+    },
+    {
+      "accession": "CDF79584.1",
+      "length": 402,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AOR29489.1",
+      "length": 430,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AOR29491.1",
+      "length": 782,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "WIW39500.1",
+      "length": 295,
+      "method": "esmfold_api",
+      "status": "success"
+    },
+    {
+      "accession": "OEF87991.1",
+      "length": 634,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "CAB01407.1",
+      "length": 720,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAF52916.1",
+      "length": 750,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAL87999.1",
+      "length": 741,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAL88862.1",
+      "length": 609,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ACU35625.1",
+      "length": 648,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ADX71276.1",
+      "length": 652,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "CCK25894.1",
+      "length": 727,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "CCK26176.1",
+      "length": 599,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ACS66685.1",
+      "length": 785,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AFZ68118.1",
+      "length": 652,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AGJ57089.1",
+      "length": 597,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ABX04162.1",
+      "length": 734,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ACY14033.1",
+      "length": 722,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AGL15927.1",
+      "length": 618,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AAV00003.1",
+      "length": 1032,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEN12197.1",
+      "length": 605,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAD67019.1",
+      "length": 759,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ADU06434.1",
+      "length": 599,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BEK81619.1",
+      "length": 771,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAE48426.1",
+      "length": 778,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEK43828.1",
+      "length": 737,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ADI12502.1",
+      "length": 609,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AGK75398.1",
+      "length": 730,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AGK79825.1",
+      "length": 598,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AGK81135.1",
+      "length": 744,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAG19231.1",
+      "length": 591,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAG23551.1",
+      "length": 729,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEY93037.1",
+      "length": 726,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEY93509.1",
+      "length": 846,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ADO70569.1",
+      "length": 824,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "CCA53860.1",
+      "length": 747,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "CCA53917.1",
+      "length": 730,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ACZ84991.1",
+      "length": 850,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEM85591.1",
+      "length": 588,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AEA62613.1",
+      "length": 616,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ADL33332.1",
+      "length": 586,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "ACU61000.1",
+      "length": 726,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "BAA04892.1",
+      "length": 548,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "AAA25520.1",
+      "length": 548,
+      "method": "extended_improved",
+      "status": "success"
+    },
+    {
+      "accession": "3GD0_1_Chain",
+      "length": 367,
+      "method": "esmfold_api",
+      "status": "success"
+    }
+  ]
+}

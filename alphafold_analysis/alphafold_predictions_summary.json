@@ -1,0 +1,218 @@
+{
+  "timestamp": "2026-01-23T15:57:10.230797",
+  "total_structures": 20,
+  "statistics": {
+    "plddt_mean": 93.91253504574831,
+    "plddt_std": 2.765942736567502,
+    "ptm_mean": 0.8905,
+    "ptm_std": 0.03879110722833262
+  },
+  "quality_distribution": {
+    "very_high_90plus": 19,
+    "high_70_89": 1,
+    "moderate_50_69": 0,
+    "low_below_50": 0
+  },
+  "predictions": [
+    {
+      "enzyme": "2VY0_1_Chains___264_aa___Activity__78.1___laminarinases_GH16_Lam16_rcsb_pdb_2VY0.fasta",
+      "plddt_mean": 97.64791666666667,
+      "plddt_min": 53.09,
+      "plddt_max": 98.94,
+      "n_residues": 264,
+      "ptm": 0.94,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "3GD0_1_Chain___367_aa___Activity__74.9___laminarinases_GH64_LPHase_LPHase_3GD0.fasta",
+      "plddt_mean": 97.56471389645776,
+      "plddt_min": 62.47,
+      "plddt_max": 98.94,
+      "n_residues": 367,
+      "ptm": 0.94,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "CDF79584.1___402_aa___Activity__88.7___laminarinases_GH17_FaGH17A.fasta",
+      "plddt_mean": 95.91654228855721,
+      "plddt_min": 35.66,
+      "plddt_max": 98.94,
+      "n_residues": 402,
+      "ptm": 0.93,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "6JH5_1_Chain___243_aa___Activity__68.4___laminarinases_GH16_LamAQ_rcsb_pdb_6JH5.fasta",
+      "plddt_mean": 95.65197530864198,
+      "plddt_min": 29.3,
+      "plddt_max": 98.94,
+      "n_residues": 243,
+      "ptm": 0.92,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "ABR28478.2___375_aa___Activity__75.5___laminarinases_GH16_SfLam.fasta",
+      "plddt_mean": 95.39250666666668,
+      "plddt_min": 40.81,
+      "plddt_max": 98.94,
+      "n_residues": 375,
+      "ptm": 0.92,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "BAE02683.1___251_aa___Activity__64.2___laminarinases_GH16_BxLam16A.fasta",
+      "plddt_mean": 95.23589641434262,
+      "plddt_min": 46.5,
+      "plddt_max": 98.94,
+      "n_residues": 251,
+      "ptm": 0.9,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "ACD93221.1___270_aa___Activity__76.0___laminarinases_GH16_CaLam.fasta",
+      "plddt_mean": 95.03125925925927,
+      "plddt_min": 49.75,
+      "plddt_max": 98.94,
+      "n_residues": 270,
+      "ptm": 0.9,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "BAC67687.1___318_aa___Activity__69.1___laminarinases_GH16_PcLam16A.fasta",
+      "plddt_mean": 94.91525157232705,
+      "plddt_min": 40.06,
+      "plddt_max": 98.94,
+      "n_residues": 318,
+      "ptm": 0.9,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "BAH84971.1___366_aa___Activity__76.1___laminarinases_GH16_HdLam33.fasta",
+      "plddt_mean": 94.83300546448086,
+      "plddt_min": 46.72,
+      "plddt_max": 98.94,
+      "n_residues": 366,
+      "ptm": 0.88,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "AAW34372.1___339_aa___Activity__79.2___laminarinases_GH16_MyLam38.fasta",
+      "plddt_mean": 94.77799410029499,
+      "plddt_min": 36.97,
+      "plddt_max": 98.94,
+      "n_residues": 339,
+      "ptm": 0.91,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "BAX84062.1___251_aa___Activity__69.8___laminarinases_GH16_ULam111_ULam111.fasta",
+      "plddt_mean": 94.52649402390439,
+      "plddt_min": 42.09,
+      "plddt_max": 98.94,
+      "n_residues": 251,
+      "ptm": 0.9,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "WIW39500.1___295_aa___Activity__84.7___laminarinases_GH17_MlGH17B.fasta",
+      "plddt_mean": 94.17294915254236,
+      "plddt_min": 48.53,
+      "plddt_max": 98.88,
+      "n_residues": 295,
+      "ptm": 0.91,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "SMY18565.1___282_aa___Activity__76.3___laminarinases_GH16_FnLamB.fasta",
+      "plddt_mean": 93.92329787234044,
+      "plddt_min": 42.22,
+      "plddt_max": 98.94,
+      "n_residues": 282,
+      "ptm": 0.89,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "AAC69707.1___276_aa___Activity__77.4___laminarinases_GH16_LamR_LamR.fasta",
+      "plddt_mean": 93.70579710144929,
+      "plddt_min": 39.47,
+      "plddt_max": 99.0,
+      "n_residues": 276,
+      "ptm": 0.87,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "3AZY_1_Chains___272_aa___Activity__86.7___laminarinases_GH16_TmLam_rcsb_pdb_3AZY.fasta",
+      "plddt_mean": 93.45852941176472,
+      "plddt_min": 25.59,
+      "plddt_max": 98.94,
+      "n_residues": 272,
+      "ptm": 0.9,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "CAL68407.1___262_aa___Activity__78.8___laminarinases_GH16_GFO_3468.fasta",
+      "plddt_mean": 93.44175572519084,
+      "plddt_min": 39.94,
+      "plddt_max": 98.94,
+      "n_residues": 262,
+      "ptm": 0.88,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "AAC25554.2___297_aa___Activity__79.8___laminarinases_GH16_Lam16_AAC25554.2.fasta",
+      "plddt_mean": 91.93279461279461,
+      "plddt_min": 33.72,
+      "plddt_max": 98.94,
+      "n_residues": 297,
+      "ptm": 0.87,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "WP_011994743.1___288_aa___Activity__76.0___laminarinases_GH16_FLamA.fasta",
+      "plddt_mean": 91.19114583333334,
+      "plddt_min": 34.38,
+      "plddt_max": 98.94,
+      "n_residues": 288,
+      "ptm": 0.86,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "CAZ96583.1___383_aa___Activity__87.0___laminarinases_GH16_ZgLamA.fasta",
+      "plddt_mean": 90.2502088772846,
+      "plddt_min": 32.5,
+      "plddt_max": 98.94,
+      "n_residues": 383,
+      "ptm": 0.78,
+      "iptm": 0.0,
+      "confidence_category": "VERY HIGH"
+    },
+    {
+      "enzyme": "BAM29293.1___390_aa___Activity__70.4___laminarinases_GH16_UeLam16A.fasta",
+      "plddt_mean": 84.68066666666667,
+      "plddt_min": 25.42,
+      "plddt_max": 98.94,
+      "n_residues": 390,
+      "ptm": 0.81,
+      "iptm": 0.0,
+      "confidence_category": "HIGH"
+    }
+  ]
+}

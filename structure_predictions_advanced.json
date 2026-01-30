@@ -1,0 +1,1222 @@
+{
+  "timestamp": "C:\\Users\\david\\OneDrive - Imperial College London\\Bureau\\Personal projects\\Hackathons\\personal hackathons\\MzymeD",
+  "tool": "extended_conformation",
+  "total_files": 81,
+  "sequences": [
+    {
+      "id": "CDF79586.1",
+      "file": "laminarinases\\GH16\\BN863_18740.fasta",
+      "length": 556,
+      "pdb_file": "predicted_structures_advanced\\CDF79586.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 556,
+        "mw_estimate": 61160,
+        "hydrophobic_fraction": 0.381294964028777,
+        "charged_fraction": 0.19244604316546762,
+        "aromatics": 74,
+        "prolines": 18
+      }
+    },
+    {
+      "id": "BAE02683.1",
+      "file": "laminarinases\\GH16\\BxLam16A.fasta",
+      "length": 251,
+      "pdb_file": "predicted_structures_advanced\\BAE02683.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 251,
+        "mw_estimate": 27610,
+        "hydrophobic_fraction": 0.398406374501992,
+        "charged_fraction": 0.17131474103585656,
+        "aromatics": 29,
+        "prolines": 9
+      }
+    },
+    {
+      "id": "ACD93221.1",
+      "file": "laminarinases\\GH16\\CaLam.fasta",
+      "length": 270,
+      "pdb_file": "predicted_structures_advanced\\ACD93221.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 270,
+        "mw_estimate": 29700,
+        "hydrophobic_fraction": 0.35185185185185186,
+        "charged_fraction": 0.22592592592592592,
+        "aromatics": 44,
+        "prolines": 13
+      }
+    },
+    {
+      "id": "WP_011994743.1",
+      "file": "laminarinases\\GH16\\FLamA.fasta",
+      "length": 288,
+      "pdb_file": "predicted_structures_advanced\\WP_011994743.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 288,
+        "mw_estimate": 31680,
+        "hydrophobic_fraction": 0.3611111111111111,
+        "charged_fraction": 0.2534722222222222,
+        "aromatics": 47,
+        "prolines": 10
+      }
+    },
+    {
+      "id": "SMY18565.1",
+      "file": "laminarinases\\GH16\\FnLamB.fasta",
+      "length": 282,
+      "pdb_file": "predicted_structures_advanced\\SMY18565.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 282,
+        "mw_estimate": 31020,
+        "hydrophobic_fraction": 0.3617021276595745,
+        "charged_fraction": 0.24468085106382978,
+        "aromatics": 48,
+        "prolines": 11
+      }
+    },
+    {
+      "id": "CAL68405.1",
+      "file": "laminarinases\\GH16\\GFO_3466.fasta",
+      "length": 554,
+      "pdb_file": "predicted_structures_advanced\\CAL68405.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 554,
+        "mw_estimate": 60940,
+        "hydrophobic_fraction": 0.36823104693140796,
+        "charged_fraction": 0.1967509025270758,
+        "aromatics": 69,
+        "prolines": 17
+      }
+    },
+    {
+      "id": "CAL68407.1",
+      "file": "laminarinases\\GH16\\GFO_3468.fasta",
+      "length": 262,
+      "pdb_file": "predicted_structures_advanced\\CAL68407.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 262,
+        "mw_estimate": 28820,
+        "hydrophobic_fraction": 0.35877862595419846,
+        "charged_fraction": 0.2633587786259542,
+        "aromatics": 36,
+        "prolines": 9
+      }
+    },
+    {
+      "id": "BAH84971.1",
+      "file": "laminarinases\\GH16\\HdLam33.fasta",
+      "length": 366,
+      "pdb_file": "predicted_structures_advanced\\BAH84971.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 366,
+        "mw_estimate": 40260,
+        "hydrophobic_fraction": 0.33879781420765026,
+        "charged_fraction": 0.16666666666666666,
+        "aromatics": 46,
+        "prolines": 20
+      }
+    },
+    {
+      "id": "BAR72490.1",
+      "file": "laminarinases\\GH16\\LALam.fasta",
+      "length": 886,
+      "pdb_file": "predicted_structures_advanced\\BAR72490.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 886,
+        "mw_estimate": 97460,
+        "hydrophobic_fraction": 0.3961625282167043,
+        "charged_fraction": 0.2076749435665914,
+        "aromatics": 95,
+        "prolines": 47
+      }
+    },
+    {
+      "id": "UYI35443.1",
+      "file": "laminarinases\\GH16\\Lam1092.fasta",
+      "length": 561,
+      "pdb_file": "predicted_structures_advanced\\UYI35443.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 561,
+        "mw_estimate": 61710,
+        "hydrophobic_fraction": 0.3511586452762923,
+        "charged_fraction": 0.20499108734402852,
+        "aromatics": 74,
+        "prolines": 19
+      }
+    },
+    {
+      "id": "ALP73406.1",
+      "file": "laminarinases\\GH16\\Lam16A.fasta",
+      "length": 1538,
+      "pdb_file": "predicted_structures_advanced\\ALP73406.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 1538,
+        "mw_estimate": 169180,
+        "hydrophobic_fraction": 0.3647594278283485,
+        "charged_fraction": 0.20416124837451236,
+        "aromatics": 158,
+        "prolines": 75
+      }
+    },
+    {
+      "id": "ABJ15796.1",
+      "file": "laminarinases\\GH16\\LamA.fasta",
+      "length": 1792,
+      "pdb_file": "predicted_structures_advanced\\ABJ15796.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 1792,
+        "mw_estimate": 197120,
+        "hydrophobic_fraction": 0.39620535714285715,
+        "charged_fraction": 0.19252232142857142,
+        "aromatics": 158,
+        "prolines": 87
+      }
+    },
+    {
+      "id": "AFE08907.1",
+      "file": "laminarinases\\GH16\\LamC.fasta",
+      "length": 438,
+      "pdb_file": "predicted_structures_advanced\\AFE08907.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 438,
+        "mw_estimate": 48180,
+        "hydrophobic_fraction": 0.3812785388127854,
+        "charged_fraction": 0.1643835616438356,
+        "aromatics": 50,
+        "prolines": 20
+      }
+    },
+    {
+      "id": "ACN22491.1",
+      "file": "laminarinases\\GH16\\LsLam16.fasta",
+      "length": 442,
+      "pdb_file": "predicted_structures_advanced\\ACN22491.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 442,
+        "mw_estimate": 48620,
+        "hydrophobic_fraction": 0.34841628959276016,
+        "charged_fraction": 0.19230769230769232,
+        "aromatics": 57,
+        "prolines": 24
+      }
+    },
+    {
+      "id": "AAW34372.1",
+      "file": "laminarinases\\GH16\\MyLam38.fasta",
+      "length": 339,
+      "pdb_file": "predicted_structures_advanced\\AAW34372.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 339,
+        "mw_estimate": 37290,
+        "hydrophobic_fraction": 0.3480825958702065,
+        "charged_fraction": 0.17994100294985252,
+        "aromatics": 49,
+        "prolines": 20
+      }
+    },
+    {
+      "id": "BAC67687.1",
+      "file": "laminarinases\\GH16\\PcLam16A.fasta",
+      "length": 318,
+      "pdb_file": "predicted_structures_advanced\\BAC67687.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 318,
+        "mw_estimate": 34980,
+        "hydrophobic_fraction": 0.389937106918239,
+        "charged_fraction": 0.12578616352201258,
+        "aromatics": 33,
+        "prolines": 18
+      }
+    },
+    {
+      "id": "ACM68926.1",
+      "file": "laminarinases\\GH16\\PvLam16.fasta",
+      "length": 443,
+      "pdb_file": "predicted_structures_advanced\\ACM68926.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 443,
+        "mw_estimate": 48730,
+        "hydrophobic_fraction": 0.3476297968397291,
+        "charged_fraction": 0.23024830699774265,
+        "aromatics": 60,
+        "prolines": 22
+      }
+    },
+    {
+      "id": "ABR28478.2",
+      "file": "laminarinases\\GH16\\SfLam.fasta",
+      "length": 375,
+      "pdb_file": "predicted_structures_advanced\\ABR28478.2_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 375,
+        "mw_estimate": 41250,
+        "hydrophobic_fraction": 0.37066666666666664,
+        "charged_fraction": 0.16,
+        "aromatics": 55,
+        "prolines": 25
+      }
+    },
+    {
+      "id": "CAA88008.1",
+      "file": "laminarinases\\GH16\\TnLam16.fasta",
+      "length": 646,
+      "pdb_file": "predicted_structures_advanced\\CAA88008.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 646,
+        "mw_estimate": 71060,
+        "hydrophobic_fraction": 0.3622291021671827,
+        "charged_fraction": 0.23374613003095976,
+        "aromatics": 85,
+        "prolines": 28
+      }
+    },
+    {
+      "id": "ABQ46917.1",
+      "file": "laminarinases\\GH16\\TpLam.fasta",
+      "length": 641,
+      "pdb_file": "predicted_structures_advanced\\ABQ46917.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 641,
+        "mw_estimate": 70510,
+        "hydrophobic_fraction": 0.36037441497659906,
+        "charged_fraction": 0.23556942277691106,
+        "aromatics": 86,
+        "prolines": 28
+      }
+    },
+    {
+      "id": "BAM29293.1",
+      "file": "laminarinases\\GH16\\UeLam16A.fasta",
+      "length": 390,
+      "pdb_file": "predicted_structures_advanced\\BAM29293.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 390,
+        "mw_estimate": 42900,
+        "hydrophobic_fraction": 0.36923076923076925,
+        "charged_fraction": 0.12307692307692308,
+        "aromatics": 41,
+        "prolines": 18
+      }
+    },
+    {
+      "id": "OEF87989.1",
+      "file": "laminarinases\\GH16\\VbGH16A.fasta",
+      "length": 525,
+      "pdb_file": "predicted_structures_advanced\\OEF87989.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 525,
+        "mw_estimate": 57750,
+        "hydrophobic_fraction": 0.3657142857142857,
+        "charged_fraction": 0.22476190476190477,
+        "aromatics": 49,
+        "prolines": 25
+      }
+    },
+    {
+      "id": "OEF87990.1",
+      "file": "laminarinases\\GH16\\VbGH16B.fasta",
+      "length": 448,
+      "pdb_file": "predicted_structures_advanced\\OEF87990.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 448,
+        "mw_estimate": 49280,
+        "hydrophobic_fraction": 0.3705357142857143,
+        "charged_fraction": 0.21205357142857142,
+        "aromatics": 46,
+        "prolines": 25
+      }
+    },
+    {
+      "id": "CAZ96583.1",
+      "file": "laminarinases\\GH16\\ZgLamA.fasta",
+      "length": 383,
+      "pdb_file": "predicted_structures_advanced\\CAZ96583.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 383,
+        "mw_estimate": 42130,
+        "hydrophobic_fraction": 0.3368146214099217,
+        "charged_fraction": 0.20887728459530025,
+        "aromatics": 49,
+        "prolines": 16
+      }
+    },
+    {
+      "id": "CAZ95067.1",
+      "file": "laminarinases\\GH16\\ZgLamC.fasta",
+      "length": 482,
+      "pdb_file": "predicted_structures_advanced\\CAZ95067.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 482,
+        "mw_estimate": 53020,
+        "hydrophobic_fraction": 0.34854771784232363,
+        "charged_fraction": 0.18049792531120332,
+        "aromatics": 57,
+        "prolines": 14
+      }
+    },
+    {
+      "id": "ADQ44988.1",
+      "file": "laminarinases\\GH16\\calkro_0072.fasta",
+      "length": 1732,
+      "pdb_file": "predicted_structures_advanced\\ADQ44988.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 1732,
+        "mw_estimate": 190520,
+        "hydrophobic_fraction": 0.384526558891455,
+        "charged_fraction": 0.20323325635103925,
+        "aromatics": 189,
+        "prolines": 81
+      }
+    },
+    {
+      "id": "ADQ45027.1",
+      "file": "laminarinases\\GH16\\calkro_0111.fasta",
+      "length": 2435,
+      "pdb_file": "predicted_structures_advanced\\ADQ45027.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 2435,
+        "mw_estimate": 267850,
+        "hydrophobic_fraction": 0.3581108829568789,
+        "charged_fraction": 0.17905544147843944,
+        "aromatics": 248,
+        "prolines": 97
+      }
+    },
+    {
+      "id": "AAC25554.2",
+      "file": "laminarinases\\GH16\\Lam16\\AAC25554.2.fasta",
+      "length": 297,
+      "pdb_file": "predicted_structures_advanced\\AAC25554.2_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 297,
+        "mw_estimate": 32670,
+        "hydrophobic_fraction": 0.3872053872053872,
+        "charged_fraction": 0.21548821548821548,
+        "aromatics": 44,
+        "prolines": 18
+      }
+    },
+    {
+      "id": "2VY0_1_Chains",
+      "file": "laminarinases\\GH16\\Lam16\\rcsb_pdb_2VY0.fasta",
+      "length": 264,
+      "pdb_file": "predicted_structures_advanced\\2VY0_1_Chains_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 264,
+        "mw_estimate": 29040,
+        "hydrophobic_fraction": 0.38257575757575757,
+        "charged_fraction": 0.22727272727272727,
+        "aromatics": 41,
+        "prolines": 18
+      }
+    },
+    {
+      "id": "6JH5_1_Chain",
+      "file": "laminarinases\\GH16\\LamAQ\\rcsb_pdb_6JH5.fasta",
+      "length": 243,
+      "pdb_file": "predicted_structures_advanced\\6JH5_1_Chain_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 243,
+        "mw_estimate": 26730,
+        "hydrophobic_fraction": 0.32098765432098764,
+        "charged_fraction": 0.16049382716049382,
+        "aromatics": 34,
+        "prolines": 6
+      }
+    },
+    {
+      "id": "AAC69707.1",
+      "file": "laminarinases\\GH16\\LamR\\LamR.fasta",
+      "length": 276,
+      "pdb_file": "predicted_structures_advanced\\AAC69707.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 276,
+        "mw_estimate": 30360,
+        "hydrophobic_fraction": 0.37318840579710144,
+        "charged_fraction": 0.22826086956521738,
+        "aromatics": 40,
+        "prolines": 17
+      }
+    },
+    {
+      "id": "CAA61884.2",
+      "file": "laminarinases\\GH16\\Lic16A\\CAA61884.2.fasta",
+      "length": 1321,
+      "pdb_file": "predicted_structures_advanced\\CAA61884.2_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 1321,
+        "mw_estimate": 145310,
+        "hydrophobic_fraction": 0.3550340651021953,
+        "charged_fraction": 0.24753974261922787,
+        "aromatics": 146,
+        "prolines": 50
+      }
+    },
+    {
+      "id": "AAD35118.1",
+      "file": "laminarinases\\GH16\\TmLam\\TmLam_NCBI.fasta",
+      "length": 642,
+      "pdb_file": "predicted_structures_advanced\\AAD35118.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 642,
+        "mw_estimate": 70620,
+        "hydrophobic_fraction": 0.3613707165109034,
+        "charged_fraction": 0.23208722741433022,
+        "aromatics": 86,
+        "prolines": 28
+      }
+    },
+    {
+      "id": "3AZY_1_Chains",
+      "file": "laminarinases\\GH16\\TmLam\\rcsb_pdb_3AZY.fasta",
+      "length": 272,
+      "pdb_file": "predicted_structures_advanced\\3AZY_1_Chains_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 272,
+        "mw_estimate": 29920,
+        "hydrophobic_fraction": 0.34558823529411764,
+        "charged_fraction": 0.25,
+        "aromatics": 38,
+        "prolines": 13
+      }
+    },
+    {
+      "id": "BAX84062.1",
+      "file": "laminarinases\\GH16\\ULam111\\ULam111.fasta",
+      "length": 251,
+      "pdb_file": "predicted_structures_advanced\\BAX84062.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 251,
+        "mw_estimate": 27610,
+        "hydrophobic_fraction": 0.3545816733067729,
+        "charged_fraction": 0.22310756972111553,
+        "aromatics": 37,
+        "prolines": 10
+      }
+    },
+    {
+      "id": "CDF79584.1",
+      "file": "laminarinases\\GH17\\FaGH17A.fasta",
+      "length": 402,
+      "pdb_file": "predicted_structures_advanced\\CDF79584.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 402,
+        "mw_estimate": 44220,
+        "hydrophobic_fraction": 0.3855721393034826,
+        "charged_fraction": 0.21890547263681592,
+        "aromatics": 42,
+        "prolines": 13
+      }
+    },
+    {
+      "id": "AOR29489.1",
+      "file": "laminarinases\\GH17\\FbGH17A.fasta",
+      "length": 430,
+      "pdb_file": "predicted_structures_advanced\\AOR29489.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 430,
+        "mw_estimate": 47300,
+        "hydrophobic_fraction": 0.3767441860465116,
+        "charged_fraction": 0.2372093023255814,
+        "aromatics": 47,
+        "prolines": 13
+      }
+    },
+    {
+      "id": "AOR29491.1",
+      "file": "laminarinases\\GH17\\FbGH17B.fasta",
+      "length": 782,
+      "pdb_file": "predicted_structures_advanced\\AOR29491.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 782,
+        "mw_estimate": 86020,
+        "hydrophobic_fraction": 0.4539641943734015,
+        "charged_fraction": 0.18030690537084398,
+        "aromatics": 116,
+        "prolines": 27
+      }
+    },
+    {
+      "id": "WIW39500.1",
+      "file": "laminarinases\\GH17\\MlGH17B.fasta",
+      "length": 295,
+      "pdb_file": "predicted_structures_advanced\\WIW39500.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 295,
+        "mw_estimate": 32450,
+        "hydrophobic_fraction": 0.34915254237288135,
+        "charged_fraction": 0.29152542372881357,
+        "aromatics": 36,
+        "prolines": 10
+      }
+    },
+    {
+      "id": "OEF87991.1",
+      "file": "laminarinases\\GH17\\VbGH17A.fasta",
+      "length": 634,
+      "pdb_file": "predicted_structures_advanced\\OEF87991.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 634,
+        "mw_estimate": 69740,
+        "hydrophobic_fraction": 0.3911671924290221,
+        "charged_fraction": 0.19085173501577288,
+        "aromatics": 65,
+        "prolines": 27
+      }
+    },
+    {
+      "id": "CAB01407.1",
+      "file": "laminarinases\\GH3\\BglB.fasta",
+      "length": 720,
+      "pdb_file": "predicted_structures_advanced\\CAB01407.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 720,
+        "mw_estimate": 79200,
+        "hydrophobic_fraction": 0.36666666666666664,
+        "charged_fraction": 0.28888888888888886,
+        "aromatics": 70,
+        "prolines": 33
+      }
+    },
+    {
+      "id": "BAF52916.1",
+      "file": "laminarinases\\GH55\\AGluA.fasta",
+      "length": 750,
+      "pdb_file": "predicted_structures_advanced\\BAF52916.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 750,
+        "mw_estimate": 82500,
+        "hydrophobic_fraction": 0.4053333333333333,
+        "charged_fraction": 0.22533333333333333,
+        "aromatics": 54,
+        "prolines": 46
+      }
+    },
+    {
+      "id": "BAL87999.1",
+      "file": "laminarinases\\GH55\\AMIS_27790.fasta",
+      "length": 741,
+      "pdb_file": "predicted_structures_advanced\\BAL87999.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 741,
+        "mw_estimate": 81510,
+        "hydrophobic_fraction": 0.40620782726045884,
+        "charged_fraction": 0.14035087719298245,
+        "aromatics": 70,
+        "prolines": 49
+      }
+    },
+    {
+      "id": "BAL88862.1",
+      "file": "laminarinases\\GH55\\AMIS_36420.fasta",
+      "length": 609,
+      "pdb_file": "predicted_structures_advanced\\BAL88862.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 609,
+        "mw_estimate": 66990,
+        "hydrophobic_fraction": 0.39901477832512317,
+        "charged_fraction": 0.15599343185550082,
+        "aromatics": 52,
+        "prolines": 36
+      }
+    },
+    {
+      "id": "ACU35625.1",
+      "file": "laminarinases\\GH55\\Amir_1676.fasta",
+      "length": 648,
+      "pdb_file": "predicted_structures_advanced\\ACU35625.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 648,
+        "mw_estimate": 71280,
+        "hydrophobic_fraction": 0.4382716049382716,
+        "charged_fraction": 0.2006172839506173,
+        "aromatics": 44,
+        "prolines": 66
+      }
+    },
+    {
+      "id": "ADX71276.1",
+      "file": "laminarinases\\GH55\\Asphe3_00570.fasta",
+      "length": 652,
+      "pdb_file": "predicted_structures_advanced\\ADX71276.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 652,
+        "mw_estimate": 71720,
+        "hydrophobic_fraction": 0.4279141104294479,
+        "charged_fraction": 0.15030674846625766,
+        "aromatics": 50,
+        "prolines": 49
+      }
+    },
+    {
+      "id": "CCK25894.1",
+      "file": "laminarinases\\GH55\\BN159_1515.fasta",
+      "length": 727,
+      "pdb_file": "predicted_structures_advanced\\CCK25894.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 727,
+        "mw_estimate": 79970,
+        "hydrophobic_fraction": 0.3947730398899587,
+        "charged_fraction": 0.1155433287482806,
+        "aromatics": 68,
+        "prolines": 40
+      }
+    },
+    {
+      "id": "CCK26176.1",
+      "file": "laminarinases\\GH55\\BN159_1797.fasta",
+      "length": 599,
+      "pdb_file": "predicted_structures_advanced\\CCK26176.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 599,
+        "mw_estimate": 65890,
+        "hydrophobic_fraction": 0.41569282136894825,
+        "charged_fraction": 0.16193656093489148,
+        "aromatics": 57,
+        "prolines": 41
+      }
+    },
+    {
+      "id": "ADQ45027.1",
+      "file": "laminarinases\\GH55\\Calkro_0111_GH16_too.fasta",
+      "length": 2435,
+      "pdb_file": "predicted_structures_advanced\\ADQ45027.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 2435,
+        "mw_estimate": 267850,
+        "hydrophobic_fraction": 0.3581108829568789,
+        "charged_fraction": 0.17905544147843944,
+        "aromatics": 248,
+        "prolines": 97
+      }
+    },
+    {
+      "id": "ACS66685.1",
+      "file": "laminarinases\\GH55\\CtLam55.fasta",
+      "length": 785,
+      "pdb_file": "predicted_structures_advanced\\ACS66685.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 785,
+        "mw_estimate": 86350,
+        "hydrophobic_fraction": 0.4063694267515924,
+        "charged_fraction": 0.1554140127388535,
+        "aromatics": 82,
+        "prolines": 45
+      }
+    },
+    {
+      "id": "AFZ68118.1",
+      "file": "laminarinases\\GH55\\Deipe_2653.fasta",
+      "length": 652,
+      "pdb_file": "predicted_structures_advanced\\AFZ68118.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 652,
+        "mw_estimate": 71720,
+        "hydrophobic_fraction": 0.3834355828220859,
+        "charged_fraction": 0.15030674846625766,
+        "aromatics": 56,
+        "prolines": 36
+      }
+    },
+    {
+      "id": "AGJ57089.1",
+      "file": "laminarinases\\GH55\\F750_4648.fasta",
+      "length": 597,
+      "pdb_file": "predicted_structures_advanced\\AGJ57089.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 597,
+        "mw_estimate": 65670,
+        "hydrophobic_fraction": 0.39865996649916247,
+        "charged_fraction": 0.18760469011725292,
+        "aromatics": 59,
+        "prolines": 40
+      }
+    },
+    {
+      "id": "ABX04162.1",
+      "file": "laminarinases\\GH55\\Haur_1518.fasta",
+      "length": 734,
+      "pdb_file": "predicted_structures_advanced\\ABX04162.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 734,
+        "mw_estimate": 80740,
+        "hydrophobic_fraction": 0.4114441416893733,
+        "charged_fraction": 0.10490463215258855,
+        "aromatics": 76,
+        "prolines": 43
+      }
+    },
+    {
+      "id": "ACY14033.1",
+      "file": "laminarinases\\GH55\\Hoch_1480.fasta",
+      "length": 722,
+      "pdb_file": "predicted_structures_advanced\\ACY14033.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 722,
+        "mw_estimate": 79420,
+        "hydrophobic_fraction": 0.40166204986149584,
+        "charged_fraction": 0.12465373961218837,
+        "aromatics": 72,
+        "prolines": 42
+      }
+    },
+    {
+      "id": "AGL15927.1",
+      "file": "laminarinases\\GH55\\L083_2417.fasta",
+      "length": 618,
+      "pdb_file": "predicted_structures_advanced\\AGL15927.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 618,
+        "mw_estimate": 67980,
+        "hydrophobic_fraction": 0.4110032362459547,
+        "charged_fraction": 0.15048543689320387,
+        "aromatics": 56,
+        "prolines": 39
+      }
+    },
+    {
+      "id": "AAV00003.1",
+      "file": "laminarinases\\GH55\\Lam1.3.fasta",
+      "length": 1032,
+      "pdb_file": "predicted_structures_advanced\\AAV00003.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 1032,
+        "mw_estimate": 113520,
+        "hydrophobic_fraction": 0.375968992248062,
+        "charged_fraction": 0.10755813953488372,
+        "aromatics": 90,
+        "prolines": 54
+      }
+    },
+    {
+      "id": "AEN12197.1",
+      "file": "laminarinases\\GH55\\Lam55A.fasta",
+      "length": 605,
+      "pdb_file": "predicted_structures_advanced\\AEN12197.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 605,
+        "mw_estimate": 66550,
+        "hydrophobic_fraction": 0.39834710743801655,
+        "charged_fraction": 0.18512396694214875,
+        "aromatics": 58,
+        "prolines": 41
+      }
+    },
+    {
+      "id": "BAD67019.1",
+      "file": "laminarinases\\GH55\\LamAI.fasta",
+      "length": 759,
+      "pdb_file": "predicted_structures_advanced\\BAD67019.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 759,
+        "mw_estimate": 83490,
+        "hydrophobic_fraction": 0.3926218708827404,
+        "charged_fraction": 0.12384716732542819,
+        "aromatics": 71,
+        "prolines": 35
+      }
+    },
+    {
+      "id": "ADU06434.1",
+      "file": "laminarinases\\GH55\\ML5_0893.fasta",
+      "length": 599,
+      "pdb_file": "predicted_structures_advanced\\ADU06434.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 599,
+        "mw_estimate": 65890,
+        "hydrophobic_fraction": 0.41402337228714525,
+        "charged_fraction": 0.19198664440734559,
+        "aromatics": 56,
+        "prolines": 45
+      }
+    },
+    {
+      "id": "BEK81619.1",
+      "file": "laminarinases\\GH55\\Mnlam55A.fasta",
+      "length": 771,
+      "pdb_file": "predicted_structures_advanced\\BEK81619.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 771,
+        "mw_estimate": 84810,
+        "hydrophobic_fraction": 0.38780804150453957,
+        "charged_fraction": 0.1543450064850843,
+        "aromatics": 69,
+        "prolines": 39
+      }
+    },
+    {
+      "id": "BAE48426.1",
+      "file": "laminarinases\\GH55\\PcLam55A.fasta",
+      "length": 778,
+      "pdb_file": "predicted_structures_advanced\\BAE48426.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 778,
+        "mw_estimate": 85580,
+        "hydrophobic_fraction": 0.390745501285347,
+        "charged_fraction": 0.08868894601542417,
+        "aromatics": 80,
+        "prolines": 35
+      }
+    },
+    {
+      "id": "AEK43828.1",
+      "file": "laminarinases\\GH55\\RAM_26755.fasta",
+      "length": 737,
+      "pdb_file": "predicted_structures_advanced\\AEK43828.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 737,
+        "mw_estimate": 81070,
+        "hydrophobic_fraction": 0.39077340569877883,
+        "charged_fraction": 0.11261872455902307,
+        "aromatics": 66,
+        "prolines": 41
+      }
+    },
+    {
+      "id": "ADI12502.1",
+      "file": "laminarinases\\GH55\\SBI_09384.fasta",
+      "length": 609,
+      "pdb_file": "predicted_structures_advanced\\ADI12502.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 609,
+        "mw_estimate": 66990,
+        "hydrophobic_fraction": 0.41050903119868637,
+        "charged_fraction": 0.15270935960591134,
+        "aromatics": 58,
+        "prolines": 42
+      }
+    },
+    {
+      "id": "AGK75398.1",
+      "file": "laminarinases\\GH55\\SFUL_414.fasta",
+      "length": 730,
+      "pdb_file": "predicted_structures_advanced\\AGK75398.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 730,
+        "mw_estimate": 80300,
+        "hydrophobic_fraction": 0.38493150684931504,
+        "charged_fraction": 0.15205479452054796,
+        "aromatics": 74,
+        "prolines": 40
+      }
+    },
+    {
+      "id": "AGK79825.1",
+      "file": "laminarinases\\GH55\\SFUL_4929.fasta",
+      "length": 598,
+      "pdb_file": "predicted_structures_advanced\\AGK79825.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 598,
+        "mw_estimate": 65780,
+        "hydrophobic_fraction": 0.39464882943143814,
+        "charged_fraction": 0.18729096989966554,
+        "aromatics": 61,
+        "prolines": 39
+      }
+    },
+    {
+      "id": "AGK81135.1",
+      "file": "laminarinases\\GH55\\SFUL_6252.fasta",
+      "length": 744,
+      "pdb_file": "predicted_structures_advanced\\AGK81135.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 744,
+        "mw_estimate": 81840,
+        "hydrophobic_fraction": 0.40053763440860213,
+        "charged_fraction": 0.13172043010752688,
+        "aromatics": 67,
+        "prolines": 46
+      }
+    },
+    {
+      "id": "BAG19231.1",
+      "file": "laminarinases\\GH55\\SGR_2402.fasta",
+      "length": 591,
+      "pdb_file": "predicted_structures_advanced\\BAG19231.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 591,
+        "mw_estimate": 65010,
+        "hydrophobic_fraction": 0.4010152284263959,
+        "charged_fraction": 0.19289340101522842,
+        "aromatics": 60,
+        "prolines": 38
+      }
+    },
+    {
+      "id": "BAG23551.1",
+      "file": "laminarinases\\GH55\\SGR_6722.fasta",
+      "length": 729,
+      "pdb_file": "predicted_structures_advanced\\BAG23551.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 729,
+        "mw_estimate": 80190,
+        "hydrophobic_fraction": 0.3895747599451303,
+        "charged_fraction": 0.15363511659807957,
+        "aromatics": 72,
+        "prolines": 41
+      }
+    },
+    {
+      "id": "AEY93037.1",
+      "file": "laminarinases\\GH55\\SHJG_7770.fasta",
+      "length": 726,
+      "pdb_file": "predicted_structures_advanced\\AEY93037.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 726,
+        "mw_estimate": 79860,
+        "hydrophobic_fraction": 0.4090909090909091,
+        "charged_fraction": 0.11570247933884298,
+        "aromatics": 68,
+        "prolines": 37
+      }
+    },
+    {
+      "id": "AEY93509.1",
+      "file": "laminarinases\\GH55\\SHJG_8243.fasta",
+      "length": 846,
+      "pdb_file": "predicted_structures_advanced\\AEY93509.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 846,
+        "mw_estimate": 93060,
+        "hydrophobic_fraction": 0.37943262411347517,
+        "charged_fraction": 0.15721040189125296,
+        "aromatics": 80,
+        "prolines": 37
+      }
+    },
+    {
+      "id": "ADO70569.1",
+      "file": "laminarinases\\GH55\\STAUR_2771.fasta",
+      "length": 824,
+      "pdb_file": "predicted_structures_advanced\\ADO70569.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 824,
+        "mw_estimate": 90640,
+        "hydrophobic_fraction": 0.3907766990291262,
+        "charged_fraction": 0.12014563106796117,
+        "aromatics": 83,
+        "prolines": 39
+      }
+    },
+    {
+      "id": "CCA53860.1",
+      "file": "laminarinases\\GH55\\SVEN_0573.fasta",
+      "length": 747,
+      "pdb_file": "predicted_structures_advanced\\CCA53860.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 747,
+        "mw_estimate": 82170,
+        "hydrophobic_fraction": 0.40562248995983935,
+        "charged_fraction": 0.1392235609103079,
+        "aromatics": 61,
+        "prolines": 44
+      }
+    },
+    {
+      "id": "CCA53917.1",
+      "file": "laminarinases\\GH55\\SVEN_0630.fasta",
+      "length": 730,
+      "pdb_file": "predicted_structures_advanced\\CCA53917.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 730,
+        "mw_estimate": 80300,
+        "hydrophobic_fraction": 0.3835616438356164,
+        "charged_fraction": 0.14657534246575343,
+        "aromatics": 71,
+        "prolines": 36
+      }
+    },
+    {
+      "id": "ACZ84991.1",
+      "file": "laminarinases\\GH55\\Sros_2003.fasta",
+      "length": 850,
+      "pdb_file": "predicted_structures_advanced\\ACZ84991.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 850,
+        "mw_estimate": 93500,
+        "hydrophobic_fraction": 0.3776470588235294,
+        "charged_fraction": 0.15176470588235294,
+        "aromatics": 84,
+        "prolines": 38
+      }
+    },
+    {
+      "id": "AEM85591.1",
+      "file": "laminarinases\\GH55\\Strvi_6100.fasta",
+      "length": 588,
+      "pdb_file": "predicted_structures_advanced\\AEM85591.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 588,
+        "mw_estimate": 64680,
+        "hydrophobic_fraction": 0.3792517006802721,
+        "charged_fraction": 0.195578231292517,
+        "aromatics": 54,
+        "prolines": 31
+      }
+    },
+    {
+      "id": "AEA62613.1",
+      "file": "laminarinases\\GH55\\bgla_2g01330.fasta",
+      "length": 616,
+      "pdb_file": "predicted_structures_advanced\\AEA62613.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 616,
+        "mw_estimate": 67760,
+        "hydrophobic_fraction": 0.4090909090909091,
+        "charged_fraction": 0.09740259740259741,
+        "aromatics": 60,
+        "prolines": 33
+      }
+    },
+    {
+      "id": "ADL33332.1",
+      "file": "laminarinases\\GH55\\bpr_I0587.fasta",
+      "length": 586,
+      "pdb_file": "predicted_structures_advanced\\ADL33332.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 586,
+        "mw_estimate": 64460,
+        "hydrophobic_fraction": 0.3703071672354949,
+        "charged_fraction": 0.2030716723549488,
+        "aromatics": 65,
+        "prolines": 23
+      }
+    },
+    {
+      "id": "ACU61000.1",
+      "file": "laminarinases\\GH64\\CpGlu64A.fasta",
+      "length": 726,
+      "pdb_file": "predicted_structures_advanced\\ACU61000.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 726,
+        "mw_estimate": 79860,
+        "hydrophobic_fraction": 0.384297520661157,
+        "charged_fraction": 0.13085399449035812,
+        "aromatics": 76,
+        "prolines": 28
+      }
+    },
+    {
+      "id": "BAA04892.1",
+      "file": "laminarinases\\GH64\\GlcI.fasta",
+      "length": 548,
+      "pdb_file": "predicted_structures_advanced\\BAA04892.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 548,
+        "mw_estimate": 60280,
+        "hydrophobic_fraction": 0.3886861313868613,
+        "charged_fraction": 0.16423357664233576,
+        "aromatics": 46,
+        "prolines": 37
+      }
+    },
+    {
+      "id": "AAA25520.1",
+      "file": "laminarinases\\GH64\\ccBglI.fasta",
+      "length": 548,
+      "pdb_file": "predicted_structures_advanced\\AAA25520.1_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 548,
+        "mw_estimate": 60280,
+        "hydrophobic_fraction": 0.3886861313868613,
+        "charged_fraction": 0.16423357664233576,
+        "aromatics": 46,
+        "prolines": 37
+      }
+    },
+    {
+      "id": "3GD0_1_Chain",
+      "file": "laminarinases\\GH64\\LPHase\\LPHase_3GD0.fasta",
+      "length": 367,
+      "pdb_file": "predicted_structures_advanced\\3GD0_1_Chain_predicted.pdb",
+      "status": "predicted",
+      "features": {
+        "length": 367,
+        "mw_estimate": 40370,
+        "hydrophobic_fraction": 0.39509536784741145,
+        "charged_fraction": 0.17166212534059946,
+        "aromatics": 35,
+        "prolines": 29
+      }
+    }
+  ]
+}

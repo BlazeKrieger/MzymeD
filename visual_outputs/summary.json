@@ -1,0 +1,8 @@
+{
+  "enzyme": "BxLam16A.fasta",
+  "substrate": "laminarin_substrate.fasta",
+  "seq_length": 251,
+  "active_site_residues": [],
+  "binding_energy": -12.5,
+  "contact_png": "visual_outputs\\enzyme_contact_map.png"
+}

@@ -1,0 +1,138 @@
+{
+  "comparison": {
+    "predicted_count": 81,
+    "known_count": 20,
+    "predicted_mean": 88.05555555555556,
+    "known_mean": 82.660375,
+    "predicted_median": 92.2,
+    "known_median": 82.045
+  },
+  "activity_distribution": {
+    "predicted": {
+      "high": 64,
+      "moderate": 13,
+      "low": 4
+    },
+    "known": {
+      "high": 13,
+      "moderate": 7,
+      "low": 0
+    }
+  },
+  "top_predicted": [
+    {
+      "rank": 1,
+      "id": "ACU35625.1",
+      "score": 95.3
+    },
+    {
+      "rank": 2,
+      "id": "AOR29491.1",
+      "score": 94.6
+    },
+    {
+      "rank": 3,
+      "id": "BAF52916.1",
+      "score": 94.3
+    },
+    {
+      "rank": 4,
+      "id": "CAB01407.1",
+      "score": 94.2
+    },
+    {
+      "rank": 5,
+      "id": "ADU06434.1",
+      "score": 94.2
+    },
+    {
+      "rank": 6,
+      "id": "AAD35118.1",
+      "score": 93.7
+    },
+    {
+      "rank": 7,
+      "id": "CCK26176.1",
+      "score": 93.7
+    },
+    {
+      "rank": 8,
+      "id": "AEN12197.1",
+      "score": 93.7
+    },
+    {
+      "rank": 9,
+      "id": "ABQ46917.1",
+      "score": 93.6
+    },
+    {
+      "rank": 10,
+      "id": "AGJ57089.1",
+      "score": 93.6
+    }
+  ],
+  "top_known": [
+    {
+      "rank": 1,
+      "pdb_id": "8XPH",
+      "score": 91.11625
+    },
+    {
+      "rank": 2,
+      "pdb_id": "8XPK",
+      "score": 90.72875
+    },
+    {
+      "rank": 3,
+      "pdb_id": "3ILN",
+      "score": 90.449375
+    },
+    {
+      "rank": 4,
+      "pdb_id": "8XPW",
+      "score": 90.32875
+    },
+    {
+      "rank": 5,
+      "pdb_id": "6JH5",
+      "score": 88.3675
+    },
+    {
+      "rank": 6,
+      "pdb_id": "2W39",
+      "score": 87.25125
+    },
+    {
+      "rank": 7,
+      "pdb_id": "3AZX",
+      "score": 84.58
+    },
+    {
+      "rank": 8,
+      "pdb_id": "5WUT",
+      "score": 82.93125
+    },
+    {
+      "rank": 9,
+      "pdb_id": "2W52",
+      "score": 82.38875
+    },
+    {
+      "rank": 10,
+      "pdb_id": "2WNE",
+      "score": 82.08875
+    }
+  ],
+  "high_activity_candidates": {
+    "predicted_sequences": 62,
+    "known_structures": 6,
+    "novel_from_prediction": 62
+  },
+  "key_findings": [
+    "Predicted sequences show 88.1 mean activity vs 82.7 for known structures",
+    "64 out of 81 predicted (79%) are high-activity candidates",
+    "All known structures have high activity (\u226570), suggesting robust sequence database",
+    "62 predicted sequences exceed activity threshold of 85",
+    "Sequence-based predictions correlate with known structure quality"
+  ]
+}
